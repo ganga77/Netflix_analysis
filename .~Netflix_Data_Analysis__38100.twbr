@@ -1,0 +1,1139 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (final_netflix)' inline='true' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_netflix' name='excel-direct.0o3u83f0aivpfh16smkxc1fb0xoy'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/gangasingh/Downloads/final_netflix.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0o3u83f0aivpfh16smkxc1fb0xoy' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K6659:no:A1:K6659:0' header='yes' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='string' name='Title' ordinal='2' />
+            <column datatype='string' name='Director' ordinal='3' />
+            <column datatype='string' name='Cast' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='string' name='Rating' ordinal='6' />
+            <column datatype='string' name='Type' ordinal='7' />
+            <column datatype='date' name='Release_date' ordinal='8' />
+            <column datatype='integer' name='year' ordinal='9' />
+            <column datatype='integer' name='Mins' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0o3u83f0aivpfh16smkxc1fb0xoy' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K6659:no:A1:K6659:0' header='yes' outcome='2'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='string' name='Title' ordinal='2' />
+            <column datatype='string' name='Director' ordinal='3' />
+            <column datatype='string' name='Cast' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='string' name='Rating' ordinal='6' />
+            <column datatype='string' name='Type' ordinal='7' />
+            <column datatype='date' name='Release_date' ordinal='8' />
+            <column datatype='integer' name='year' ordinal='9' />
+            <column datatype='integer' name='Mins' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K6659:no:A1:K6659:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Director]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Director</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cast</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cast]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cast</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Release_date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Release_date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mins</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mins]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Mins</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Release date' datatype='date' name='[Release_date]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[Country]' derivation='Max' name='[max:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[max:Country:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_9D70BCCC0C484F6E93B77EF01DA3E93A'>
+            <properties context=''>
+              <relation connection='excel-direct.0o3u83f0aivpfh16smkxc1fb0xoy' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K6659:no:A1:K6659:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Category' ordinal='1' />
+                  <column datatype='string' name='Title' ordinal='2' />
+                  <column datatype='string' name='Director' ordinal='3' />
+                  <column datatype='string' name='Cast' ordinal='4' />
+                  <column datatype='string' name='Country' ordinal='5' />
+                  <column datatype='string' name='Rating' ordinal='6' />
+                  <column datatype='string' name='Type' ordinal='7' />
+                  <column datatype='date' name='Release_date' ordinal='8' />
+                  <column datatype='integer' name='year' ordinal='9' />
+                  <column datatype='integer' name='Mins' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_DF3796526BB540498A14ED7AA87A54CC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='Average movie time per country' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average movie time per country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (final_netflix)' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0rx9tej0sdo46410e6lgr1m8fcw5'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Mins]' role='measure' type='quantitative' />
+            <column-instance column='[Mins]' derivation='Avg' name='[avg:Mins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;Movie&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Argentina&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Australia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Austria&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Bangladesh&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Bulgaria&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Cambodia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Canada&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Chile&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Colombia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Denmark&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Egypt&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Finland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Germany&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Ghana&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Guatemala&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Hong Kong&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Hungary&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Iceland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Indonesia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Ireland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Israel&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Italy&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Japan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Kenya&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Malaysia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Mexico&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Namibia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Netherlands&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;New Zealand&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Nigeria&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Norway&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Pakistan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Peru&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Philippines&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Poland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Romania&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Saudi Arabia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Singapore&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa, United States&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa, United States, Germany&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa, United States, New Zealand, Canada&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Korea&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Spain&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Sweden&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Switzerland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Taiwan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Thailand&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Turkey&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;United Arab Emirates&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;United Kingdom&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;United States&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Venezuela&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Vietnam&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Zimbabwe&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk]</column>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' value='' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]</rows>
+        <cols>([federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk] / [federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk])</cols>
+      </table>
+      <simple-id uuid='{CC935D0E-83E2-4A49-BD46-BDEB617C7413}' />
+    </worksheet>
+    <worksheet name='Average seasons released per country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (final_netflix)' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0rx9tej0sdo46410e6lgr1m8fcw5'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Mins]' role='measure' type='quantitative' />
+            <column-instance column='[Mins]' derivation='Avg' name='[avg:Mins:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>3.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;TV Show&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Argentina&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Australia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Bangladesh&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Belarus&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Belgium&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Canada&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Chile&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Colombia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Croatia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Cyprus&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Denmark&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Egypt&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Finland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Germany&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Hong Kong&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Iceland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Indonesia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Ireland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Israel&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Italy&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Japan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Jordan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Kuwait&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Lebanon&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Malaysia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Mexico&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Netherlands&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Nigeria&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Norway&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Pakistan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Philippines&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Poland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Russia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Saudi Arabia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Senegal&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Singapore&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Korea&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Spain&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Sweden&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Switzerland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Taiwan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Thailand&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Turkey&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Ukraine&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;United Arab Emirates&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;United Kingdom&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;United States&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Uruguay&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Venezuela&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Vietnam&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Zimbabwe&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]' direction='DESC' using='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' />
+          <slices>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk]</column>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]</column>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' value='*' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk] * [federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk])</rows>
+        <cols>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{52F47AA7-31F7-49F8-A951-B56166FD505B}' />
+    </worksheet>
+    <worksheet name='Countries with maximum releases'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (final_netflix)' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0rx9tej0sdo46410e6lgr1m8fcw5'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Type]' derivation='Count' name='[cnt:Type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Type:qk]' included-values='in-range'>
+            <min>150</min>
+            <max>2251</max>
+          </filter>
+          <manual-sort column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;United States&quot;</bucket>
+              <bucket>&quot;India&quot;</bucket>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Type:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[Longitude (generated)]' field-type='quantitative' max='21444350.152311262' min='-19569924.260393407' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[Latitude (generated)]' field-type='quantitative' max='18415009.69232538' min='-8197306.1395274578' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]' />
+              <color column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Type:qk]' />
+              <geometry column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[Latitude (generated)]</rows>
+        <cols>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{629ECF94-4908-4A0C-BEAA-89B67213B5C2}' />
+    </worksheet>
+    <worksheet name='Most Loved Category types'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (final_netflix)' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0rx9tej0sdo46410e6lgr1m8fcw5'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Category]' derivation='Count' name='[cnt:Category:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]' included-values='in-range'>
+            <min>100</min>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk] / [federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Country:nk])</rows>
+        <cols>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]</cols>
+      </table>
+      <simple-id uuid='{1ECB2759-F8EF-4659-B0CE-C2C34970ACA1}' />
+    </worksheet>
+    <worksheet name='Movies Released'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (final_netflix)' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rx9tej0sdo46410e6lgr1m8fcw5'>
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Title]' derivation='Count' name='[cnt:Title:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Title:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Title:qk]</rows>
+        <cols>[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:year:qk]</cols>
+      </table>
+      <simple-id uuid='{30F6791B-C4B5-4715-8B2C-B712804C6039}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BD7477BD-C8E8-43DE-BD79-A40A2D010EE5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Sheet1 (final_netflix)' name='federated.0rx9tej0sdo46410e6lgr1m8fcw5' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0rx9tej0sdo46410e6lgr1m8fcw5'>
+        <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+        <column-instance column='[Category]' derivation='Count' name='[cnt:Category:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='11' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='8' param='horz' type-v2='layout-flow' w='53300' x='800' y='1000'>
+              <zone h='98000' id='6' type-v2='layout-basic' w='53300' x='800' y='1000'>
+                <zone h='49000' id='3' name='Movies Released' w='26650' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='5' name='Countries with maximum releases' w='53300' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='9' name='Most Loved Category types' show-title='false' w='26650' x='27450' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='451' h='98000' id='10' is-fixed='true' param='vert' type-v2='layout-flow' w='45100' x='54100' y='1000'>
+              <zone h='6375' id='12' name='Most Loved Category types' param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='45100' x='54100' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49250' id='13' name='Average movie time per country' w='45100' x='54100' y='7375'>
+                <layout-cache cell-count-w='59' minheight='344' non-cell-size-w='1' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='34250' id='15' name='Average seasons released per country' w='45100' x='54100' y='56625'>
+                <layout-cache cell-count-w='51' minheight='224' non-cell-size-w='81' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8125' id='16' name='Average seasons released per country' pane-specification-id='0' param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' type-v2='color' w='45100' x='54100' y='90875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='17' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Movies Released' w='26650' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6375' id='12' name='Most Loved Category types' param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='45100' x='54100' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Most Loved Category types' show-title='false' w='26650' x='27450' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49250' id='13' is-fixed='true' name='Average movie time per country' w='45100' x='54100' y='7375'>
+                  <layout-cache cell-count-w='42' minheight='344' non-cell-size-w='56' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Countries with maximum releases' w='53300' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='266' h='34250' id='15' is-fixed='true' name='Average seasons released per country' w='45100' x='54100' y='56625'>
+                  <layout-cache cell-count-w='51' minheight='224' non-cell-size-w='126' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8125' id='16' name='Average seasons released per country' pane-specification-id='0' param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' type-v2='color' w='45100' x='54100' y='90875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1BB8B5A4-5ED1-4025-9FFB-3511656A608C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CF9C6AD5-3B26-4CD3-BCE0-34601A551F4F}' />
+    </window>
+    <window class='worksheet' name='Movies Released'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6C8BA36C-D6D0-40B3-A5FB-F8A740944139}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Countries with maximum releases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Type:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FB48C438-FE77-4515-BDE3-617E6E7B980E}' />
+    </window>
+    <window class='worksheet' name='Most Loved Category types'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[cnt:Category:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F0014155-F2F6-4D51-9DC9-841DD0997FBE}' />
+    </window>
+    <window class='worksheet' name='Average movie time per country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[none:Category:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{20E04682-9436-4E8E-B07C-C19B48B261B7}' />
+    </window>
+    <window class='worksheet' name='Average seasons released per country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rx9tej0sdo46410e6lgr1m8fcw5].[avg:Mins:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C458314C-014A-43D3-99F2-CDFE216CE92D}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Average movie time per country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average seasons released per country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Countries with maximum releases'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Most Loved Category types' />
+        <viewpoint name='Movies Released'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{E04D0E96-75E5-417D-BEAE-6E8A4D4E49BA}' />
+    </window>
+  </windows>
+</workbook>
